@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập JS buổi 6</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center bg-dark" style="margin-bottom: 500px">
+        <div class="form-group bg-dark">
+            <!-- BÀI TẬP 1 -->
+            <div class="card">
+                <div class="card-top">
+                    <h3 class="text-center mx-3 mt-3">1️⃣ Tìm số chẵn/lẻ nhỏ hơn 100</h3>
+                </div>
+                <div class="card-body d-flex justify-content-center">
+                    <button class="btn btn-primary" id="btnXemKetQua_1">Xem kết Quả</button>
+                </div>
+                <div class="alert alert-success mx-3" id="ketQua_b1">
+
+                </div>
+            </div>
+            <br>
+            <!-- BÀI TẬP 2 -->
+            <div class="card">
+                <div class="card-top">
+                    <h3 class="text-center mx-3 mt-3">2️⃣ Đếm số chia hết cho 3</h3>
+                </div>
+                <div class="card-body d-flex justify-content-center">
+                    <button class="btn btn-primary" id="btnXemKetQua_2">Xem kết Quả</button>
+                </div>
+                <div class="alert alert-success mx-3" id="ketQua_b2">
+
+                </div>
+            </div>
+            <br>
+            <!-- BÀI TẬP 3 -->
+            <div class="card">
+                <div class="card-top">
+                    <h3 class="text-center mx-3 mt-3">3️⃣ Tìm số nguyên dương nhỏ nhất sao cho: <br>
+                        1 + 2 + … + n > 10000</h3>
+                </div>
+                <div class="card-body d-flex justify-content-center">
+                    <button class="btn btn-primary" id="btnXemKetQua_3">Xem kết Quả</button>
+                </div>
+                <div class="alert alert-success mx-3" id="ketQua_b3">
+
+                </div>
+            </div>
+            <br>
+            <!-- BÀI TẬP 4 -->
+            <div class="card">
+                <div class="card-top">
+                    <h3 class="text-center mx-3 mt-3">4️⃣ Tính tổng</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <input type="number" class="form-control" id="nhapSoX_4" placeholder="Nhập số x" />
+                        </div>
+                        <div class="col-4">
+                            <input type="number" class="form-control" id="nhapSoN_4" placeholder="Nhập số n" />
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mb-3">
+                    <button class="btn btn-primary" id="btnTinhTong_4">Tính Tổng</button>
+                </div>
+                <div class="alert alert-success mx-3" id="ketQua_b4">
+
+                </div>
+            </div>
+            <br>
+            <!-- BÀI TẬP 5 -->
+            <div class="card">
+                <div class="card-top">
+                    <h3 class="text-center mx-3 mt-3">5️⃣ Tính giai thừa</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <input type="number" class="form-control" id="nhapSoN_5" placeholder="Nhập số n" />
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mb-3">
+                    <button class="btn btn-primary" id="btnTinh_5">Tính</button>
+                </div>
+                <div class="alert alert-success mx-3" id="ketQua_b5">
+
+                </div>
+            </div>
+            <br>
+            <!-- BÀI TẬP 6 -->
+            <div class="card">
+                <div class="card-top">
+                    <h3 class="text-center mx-3 mt-3">6️⃣ Tạo thẻ div
+                    </h3>
+                </div>
+                <div class="card-body d-flex justify-content-center">
+                    <button class="btn btn-primary" id="btnTaoThe_6">Tạo Thẻ</button>
+                </div>
+                <div class="alert alert-success mx-3" id="ketQua_b6">
+
+                </div>
+            </div>
+            <br>
+            <!-- BÀI TẬP 7 -->
+            <div class="card">
+                <div class="card-top">
+                    <h3 class="text-center mx-3 mt-3">7️⃣ In số nguyên tố</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <input type="number" class="form-control" id="nhapSoN_7" placeholder="Nhập số n" />
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 d-flex justify-content-center">
+                    <button class="btn btn-primary" id="btnInSo_7">In số</button>
+                </div>
+                <div class="alert alert-success mx-3" id="ketQua_b7">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
